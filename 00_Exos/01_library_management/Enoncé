@@ -1,0 +1,61 @@
+Cas pratique : gestion d’une bibliothèque
+Objectif :
+Vous allez implémenter un système de gestion de bibliothèque. Ce système permet de gérer les livres, les utilisateurs, ainsi que les emprunts de livres. Une interface en ligne de commande sera utilisée pour interagir avec le système.
+
+Fonctions à implémenter :
+Créer un livre
+Implémentez une fonction qui permet de créer un livre. chaque livre doit avoir un titre, un auteur, et un statut (disponible ou non).
+fonction attendue : add_book(title, author)
+Créer un utilisateur
+Implémentez une fonction qui permet de créer un utilisateur. chaque utilisateur doit avoir un nom, et pouvoir emprunter des livres.
+fonction attendue : add_user(name)
+Emprunter un livre
+Implémentez une fonction qui permet à un utilisateur d’emprunter un livre, si ce dernier est disponible. lorsqu’un livre est emprunté, il devient indisponible jusqu’à ce qu’il soit rendu.
+fonction attendue : loan_book(user_name, book_title)
+Rendre un livre
+Implémentez une fonction qui permet à un utilisateur de rendre un livre qu’il a précédemment emprunté. une fois le livre rendu, il redevient disponible.
+fonction attendue : return_book(user_name, book_title)
+Lister les livres disponibles
+Implémentez une fonction qui permet de lister tous les livres disponibles dans la bibliothèque, c’est-à-dire ceux qui ne sont pas empruntés.
+fonction attendue : list_available_books()
+Lister les emprunts d’un utilisateur
+Implémentez une fonction qui permet de lister tous les livres empruntés par un utilisateur donné.
+fonction attendue : list_user_loans(user_name)
+Sauvegarder les données (optionnel)
+Vous pouvez implémenter une fonctionnalité qui permet de sauvegarder les données (livres, utilisateurs, emprunts) dans une base de données sqlite. cela permettra de conserver les informations entre plusieurs exécutions du programme.
+fonction attendue (si vous utilisez une base de données) :
+save_data()
+
+
+load_data()
+
+exemple d’interaction attendue dans la console :
+--- menu ---
+1. ajouter un livre
+2. ajouter un utilisateur
+3. emprunter un livre
+4. rendre un livre
+5. lister les livres disponibles
+6. lister les emprunts d'un utilisateur
+7. quitter
+
+résumé des fonctions à implémenter :
+add_book(title, author)
+
+
+add_user(name)
+
+
+loan_book(user_name, book_title)
+
+
+return_book(user_name, book_title)
+
+
+list_available_books()
+
+
+list_user_loans(user_name)
+
+
+(optionnel) save_data() et load_data() pour la persistance des données
