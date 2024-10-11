@@ -1,0 +1,1 @@
+Implémentation d'Observer : les utilisateurs peuvent s'abonner à un livre pour être notifié de sa disponibilité.
