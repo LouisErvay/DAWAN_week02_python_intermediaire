@@ -10,6 +10,8 @@
 # 3- Fixtures
 # 4- Exécution de tests
 
+# Doc Mock -> https://docs.python.org/fr/3/library/unittest.mock.html
+
 def addition(a,b):
     return a+b
 
