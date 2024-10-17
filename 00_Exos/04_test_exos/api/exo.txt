@@ -1,0 +1,2 @@
+Utiliser mock pour simuler l'API requests.get et tester la fonction get_user_data().
+Simuler des réponses avec des statuts HTTP 200 et 404.

@@ -1,0 +1,1 @@
+Tester le bon fonctionnement de la méthode surface de la classe Rectangle

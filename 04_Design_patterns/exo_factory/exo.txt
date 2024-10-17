@@ -1,0 +1,1 @@
+Implémentation de factory: une factory permet de créer un type de média à la demande. 
